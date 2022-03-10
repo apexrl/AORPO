@@ -1,6 +1,6 @@
 # AORPO: Model-based Multi-agent Policy Optimization with Adaptive Opponent-wise Rollouts
 
-This is the implementation of the paper [Model-based Multi-agent Policy Optimization with Adaptive Opponent-wise Rollouts](https://arxiv.org/abs/2105.03363).
+This is a official pytorch implementation of the paper [Model-based Multi-agent Policy Optimization with Adaptive Opponent-wise Rollouts](https://arxiv.org/abs/2105.03363).
 
 **Note: We re-factor the code and the results are slightly different with those in the paper.**
 
