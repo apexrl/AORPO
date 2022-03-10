@@ -7,4 +7,5 @@ results
 __pycache__
 *.egg-info
 @eaDir
+.DS_store
 # trained_models

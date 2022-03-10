@@ -7,7 +7,7 @@ Note: We re-factor the code and the results are slightly different with those in
 ## How to Install
 
 ```shell
-git clone 
+git clone git@github.com:Leo-xh/AORPO.git
 cd aorpo
 conda create -n aorpo python=3.7
 conda activate aorpo
