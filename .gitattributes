@@ -1,0 +1,4 @@
+trained_models/ filter=lfs diff=lfs merge=lfs -text
+trained_models/simple_schedule.pt filter=lfs diff=lfs merge=lfs -text
+trained_models/simple_speaker_listener.pt filter=lfs diff=lfs merge=lfs -text
+trained_models/simple_spread.pt filter=lfs diff=lfs merge=lfs -text
