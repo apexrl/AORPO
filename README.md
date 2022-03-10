@@ -47,6 +47,8 @@ For example, to evaluate AORPO in Cooperative Navigation
 python eval.py simple_spread ./trained_models/simple_spread.pt --render
 ```
 
+## Citation
+
 ```tex
 @article{2021,
    title={Model-based Multi-agent Policy Optimization with Adaptive Opponent-wise Rollouts},
