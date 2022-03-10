@@ -1,8 +1,8 @@
 # AORPO: Model-based Multi-agent Policy Optimization with Adaptive Opponent-wise Rollouts
 
-This is the implementation of the paper 'Model-based Multi-agent Policy Optimization with Adaptive Opponent-wise Rollouts'.
+This is the implementation of the paper [Model-based Multi-agent Policy Optimization with Adaptive Opponent-wise Rollouts](https://arxiv.org/abs/2105.03363).
 
-Note: We re-factor the code and the results are slightly different with those in the paper.
+**Note: We re-factor the code and the results are slightly different with those in the paper.**
 
 ## How to Install
 
@@ -28,14 +28,14 @@ We recomment training with gpus since AORPO is hard to train without gpus.
 For example, to train AORPO in Cooperative Navigation
 
 ```shell
-./train.sh test spread AORPO
+./train.sh test spread AORPO 0
 ```
 
 Please feel free to try other parameters.
 
 ## Trained Models
 
-Since training AORPO requires plenty of time, we provide trained models (without large dynammics models) in `models`, the models can be evaluated using the following command
+Since training AORPO requires plenty of time, we provide trained models (without large dynammics models) in `./trained_models/`, the models can be evaluated using the following command
 
 ```shell
 python eval.py [env_id] [model_path] {--render}
